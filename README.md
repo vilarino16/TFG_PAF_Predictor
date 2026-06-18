@@ -38,6 +38,14 @@ Se recomienda revisar el apartado de manual de uso para su ejecución.
 
 Conjunto de ficheros con los códigos de procesamiento y generación de gráficas para el análisis de los datos.
 
+### Data
+
+Conjunto de datos utilizados en los modelo, diferenciados en datos de la derivación ECG0 y ECG1.
+
+### Plots
+
+Directorio con algunas gráficas generadas a partir de los datos de la carpeta data.
+
 ## Manual de Uso
 
 ### Descarga y preparación del entorno de ejecución
