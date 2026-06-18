@@ -154,8 +154,8 @@ def parse_datasets(args, device):
 
 	#Procesamiento de los datos del desafío de 2001 organizado por Physionet y Computing in Cardiology
 	if dataset_name == "PAF":
-		train_data = PAF('data/PAFAPC1_11_ReplicasAPC/Entrenamiento/Datos', 'data/PAFAPC_11_ReplicasAPC/Entrenamiento/REFERENCE_TRAIN.csv', n_samples=args.n, device=device)
-		test_data = PAF('data/PAFAPC1_11_ReplicasAPC/Test/Datos','data/PAFAPC_11_ReplicasAPC/Test/REFERENCE_TEST.csv', n_samples=100, device=device)
+		train_data = PAF('../data/PAFAPC1_11_ReplicasAPC/Entrenamiento/Datos', '../data/PAFAPC_11_ReplicasAPC/Entrenamiento/REFERENCE_TRAIN.csv', n_samples=args.n, device=device)
+		test_data = PAF('../data/PAFAPC1_11_ReplicasAPC/Test/Datos','../data/PAFAPC_11_ReplicasAPC/Test/REFERENCE_TEST.csv', n_samples=100, device=device)
 
 		record_id, core_name, pair_id, tt, vals, mask, labels = train_data[0]
 
