@@ -620,9 +620,7 @@ def compute_loss_all_batches(model,
                         preds_max = val
                         thMax = th
                         preds_best = preds
-                    if val1 > even1_max:
                         even1_max = val1
-                    if val2 > even2_max:
                         even2_max = val2
                 total["Evento1"] = even1_max
                 total["Evento2"] = even2_max
