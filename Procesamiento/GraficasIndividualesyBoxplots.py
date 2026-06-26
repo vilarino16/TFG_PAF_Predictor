@@ -5,13 +5,8 @@ matplotlib.use('Agg')
 import matplotlib.pyplot
 import matplotlib.pyplot as plt
 
-import lib.utils as utils
 import numpy as np
 import tarfile
-import torch
-from torch.utils.data import DataLoader
-from torchvision.datasets.utils import download_url
-from lib.utils import get_device
 import pandas as pd
 from matplotlib.patches import Patch
 
